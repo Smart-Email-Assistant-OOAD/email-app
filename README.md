@@ -74,20 +74,17 @@ This application is designed with several key principles in mind to ensure maint
     ```properties
     spring.mail.username=your-email@example.com
     spring.mail.password=your-email-password
-    ai.provider=openai
-    # Add your OpenAI API key if required
-    openai.api.key=YOUR_OPENAI_API_KEY
+    # Add your AI API key.
     ```
-    **Note:** Ensure you replace the placeholder values with your actual email credentials and OpenAI API key (if applicable).
 
 3.  **Run the Application:**
     Execute the following Maven command from the project's root directory to build and run the Spring Boot application:
     ```bash
-    ./mvnw spring-boot:run
+    mvn spring-boot:run
     ```
     Alternatively, you can build the JAR file and then run it:
     ```bash
-    ./mvnw clean package
+    mvn clean package
     java -jar target/email-assistant-0.0.1-SNAPSHOT.jar # Adjust the JAR name if needed
     ```
 
@@ -130,10 +127,6 @@ These design decisions, as reflected in the class diagram, contribute to a modul
 
 ---
 
-## 👨‍💻 Author
-
+## 👨‍💻 Devs
 > Crafted with ❤️ by [Praneet, Kartik, Aayush, Kousthubh]
->
->
-
 ---
